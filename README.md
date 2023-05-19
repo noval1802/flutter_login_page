@@ -16,11 +16,11 @@
 
 ## Login White Facbook
 
-![assets](assets/page/)
+![assets](assets/page/facebook.png)
 
 ## Login White Google
 
-![assets](assets/page/)
+![assets](assets/page/google.png)
 
 ## Register
 
@@ -28,7 +28,9 @@
 
 ## Resetpass
 
-![assets](assets/loginhasil3.png)
+![assets](assets/page/resetpass.png)
+
+
 
 A few resources to get you started if this is your first Flutter project:
 
