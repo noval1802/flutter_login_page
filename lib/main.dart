@@ -1,4 +1,7 @@
+// import 'dart:js';
+
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/google.dart';
 import 'package:flutter_application_1/login.dart';
 import 'package:flutter_application_1/register.dart';
 import 'package:flutter_application_1/resetpass.dart';
@@ -14,7 +17,8 @@ void main() {
         'login': (context) => MyLogin(),
         'register': (context) => myRegister(),
         'forgot': (context) => resetPassword(),
-        'facebook': (context) => FacebookPage(), // Tambahkan rute ke FacebookPage()
+        'facebook': (context) => FacebookPage(), 
+        'google':(context) => LoginWithGooglePage(),
       },
     ),
   );

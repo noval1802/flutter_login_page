@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
-class FacebookPage extends StatefulWidget {
+class LoginWithGooglePage extends StatefulWidget {
   @override
-  _FacebookPageState createState() => _FacebookPageState();
+  _LoginWithGooglePageState createState() => _LoginWithGooglePageState();
 }
 
-class _FacebookPageState extends State<FacebookPage> {
+class _LoginWithGooglePageState extends State<LoginWithGooglePage> {
   GoogleSignIn _googleSignIn = GoogleSignIn(
     scopes: [
       'email',
@@ -44,7 +44,7 @@ class _FacebookPageState extends State<FacebookPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  'Login with Your Facebook Account',
+                  'Login with Google',
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
@@ -52,7 +52,7 @@ class _FacebookPageState extends State<FacebookPage> {
                 ),
                 SizedBox(height: 16),
                 Image.asset(
-                  'assets/facebook.png', // Path to your Google logo image
+                  'assets/google.png', // Path to your Google logo image
                   height: 40,
                   width: 40,
                 ),

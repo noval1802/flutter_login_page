@@ -1,18 +1,30 @@
 # flutter_application_1
 
-A new Flutter project.
+|Nama|:|Abdul Aziz Anaoval|
+|---|---|---|
+|NIM|:| 312010049|
+|Matkul|:| Pemograman Mobile|
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```flutter pub get``` <br>
+```flutter run```
 
 ## Login view
 
-![assets](assets/loginhasil1.png)
+![assets](assets/page/login.png)
+
+## Login White Facbook
+
+![assets](assets/page/)
+
+## Login White Google
+
+![assets](assets/page/)
 
 ## Register
 
-![assets](assets/loginhasil2.png)
+![assets](assets/page/register.png)
 
 ## Resetpass
 

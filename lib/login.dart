@@ -9,7 +9,7 @@ class MyLogin extends StatefulWidget {
 
 class _MyLoginState extends State<MyLogin> {
   bool _isHidden = true;
-  
+
   void _toggleVisibility() {
     setState(() {
       _isHidden = !_isHidden;
@@ -37,14 +37,15 @@ class _MyLoginState extends State<MyLogin> {
                 children: [
                   Container(
                     padding: EdgeInsets.only(
-                      top: 60.0,
+                      top: 90.0,
                     ),
                     child: Text(
                       '\n Login',
                       textAlign: TextAlign.left,
                       style: TextStyle(
                         color: Color.fromARGB(248, 0, 0, 0),
-                        fontSize: 40.0,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 24,
                       ),
                     ),
                   ),
@@ -122,7 +123,7 @@ class _MyLoginState extends State<MyLogin> {
                           TextButton(
                             onPressed: () {
                               // Login with Facebook
-                               Navigator.pushNamed(context, 'facebook');
+                              Navigator.pushNamed(context, 'facebook');
                             },
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -133,11 +134,11 @@ class _MyLoginState extends State<MyLogin> {
                                   height: 24.0,
                                 ),
                                 SizedBox(width: 10.0),
-
                                 Text(
                                   'Login with Facebook',
                                   style: TextStyle(
-                                    color: const Color.fromARGB(255, 231, 231, 231),
+                                    color: const Color.fromARGB(
+                                        255, 231, 231, 231),
                                     fontSize: 14,
                                     fontWeight: FontWeight.bold,
                                   ),
@@ -149,6 +150,7 @@ class _MyLoginState extends State<MyLogin> {
                           TextButton(
                             onPressed: () {
                               // Login with Google
+                              Navigator.pushNamed(context, 'google');
                             },
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,

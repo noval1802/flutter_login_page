@@ -52,7 +52,7 @@ class _resetPasswordState extends State<resetPassword> {
                   child: Column(
                     children: [
                       TextFormField(
-                        obscureText: true,
+                        obscureText: false,
                         decoration: InputDecoration(
                           labelText: 'Email',
                           prefixIcon: Icon(Icons.email_outlined),
